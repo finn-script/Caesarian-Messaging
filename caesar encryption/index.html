@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caesarian Messaging</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="cont">
+        <div id="encrypt">
+            <p>Input text you want to be encrypted here</p>
+            <input id="button" type="text">
+            <p>Input shift key here</p>
+            <input id="number" type="number">
+            <button onclick="encrypt()">Encrypt</button>
+            <div id="result"></div>
+        </div>
+        <div id="decipher">
+            <p>Input encrypted text here</p>
+            <input id="Xbutton" type="text">
+            <p>Input shift key here</p>
+            <input id="Xnumber" type="number">
+            <button onclick="decipher()">Decipher</button>
+            <div id="output"></div>
+        </div>
+    </div>
+</body>
+</html>
